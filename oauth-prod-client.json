@@ -5,6 +5,24 @@
   "redirect_uris": ["https://app.on-demand.io/connector/auth/callback"],
   "token_endpoint_auth_method": "none",
   "com.posthog": {
-    "scopes": ["project:read", "insight:read"]
+      "scopes": [
+    "user:read",
+    "organization:read",
+    "project:read",
+    "query:read",
+    "event_definition:read",
+    "insight:read",
+    "dashboard:read",
+    "person:read",
+    "cohort:read",
+    "action:read",
+    "feature_flag:read",
+    "feature_flag:write",
+    "annotation:read",
+    "annotation:write",
+    "session_recording:read",
+    "experiment:read",
+    "survey:read"
+  ]
   }
 }
