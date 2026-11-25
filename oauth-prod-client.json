@@ -1,5 +1,5 @@
 {
-  "client_id": "",
+  "client_id": "https://posthog-prod-server.vercel.app/oauth-prod-client.json",
   "client_name": "OnDemand",
   "logo_uri": "https://res.cloudinary.com/party-people/image/upload/v1795530894/on_demandio_logo_tbl8tj.jpg",
   "redirect_uris": ["https://app.on-demand.io/connector/auth/callback"],
