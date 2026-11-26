@@ -2,27 +2,29 @@
   "client_id": "https://posthog-prod-server.vercel.app/oauth-prod-client.json",
   "client_name": "OnDemand",
   "logo_uri": "https://res.cloudinary.com/party-people/image/upload/v1795530894/on_demandio_logo_tbl8tj.jpg",
-  "redirect_uris": ["https://app.on-demand.io/connector/auth/callback"],
+  "redirect_uris": [
+    "https://app.on-demand.io/connector/auth/callback"
+  ],
   "token_endpoint_auth_method": "none",
   "com.posthog": {
-      "scopes": [
-    "user:read",
-    "organization:read",
-    "project:read",
-    "query:read",
-    "event_definition:read",
-    "insight:read",
-    "dashboard:read",
-    "person:read",
-    "cohort:read",
-    "action:read",
-    "feature_flag:read",
-    "feature_flag:write",
-    "annotation:read",
-    "annotation:write",
-    "session_recording:read",
-    "experiment:read",
-    "survey:read"
-  ]
+    "scopes": [
+      "user:read",
+      "organization:read",
+      "project:read",
+      "query:read",
+      "event_definition:read",
+      "insight:read",
+      "dashboard:read",
+      "person:read",
+      "cohort:read",
+      "action:read",
+      "feature_flag:read",
+      "feature_flag:write",
+      "annotation:read",
+      "annotation:write",
+      "session_recording:read",
+      "experiment:read",
+      "survey:read"
+    ]
   }
 }
